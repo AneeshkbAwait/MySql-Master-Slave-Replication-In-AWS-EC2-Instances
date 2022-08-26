@@ -49,7 +49,7 @@ Take note of file name, ‘mysql-bin.000001’ and Position ‘679’. You’ll 
 Take note of file name, ‘mysql-bin.000001’ and Position ‘679’. You’ll need these values when configuring the slave server. These values will probably be different on your server.
 
 #### Configure the Slave-1 and Slave-2 Server
-Here we have 2 Slvae servers and we want to connect 2 Slave servers to Master server. The slave-1 and slave-2 server MySQL configuration file open and edit the following lines:
+Here we have 2 Slave servers and we want to connect 2 Slave servers to the Master. Open the slave-1 and slave-2 server MySQL configuration file and edit the following lines:
 
 Slave-1;
 ```
